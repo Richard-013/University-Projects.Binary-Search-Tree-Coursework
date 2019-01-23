@@ -1,0 +1,51 @@
+Unit Testing:
+Tests To Write:
+checkChildren: ALL COMPLETE
+
+insertNode: ALL COMPLETE
+
+treeFromFile: ALL COMPLETE
+
+binaryTreeSearch: ALL COMPLETE
+				  
+searchNoPrint: ALL COMPLETE
+
+delete: ALL COMPLETE
+
+deleteNode: ALL COMPLETE
+
+deleteRoot: ALL COMPLETE
+
+preOrder: ALL COMPLETE
+
+
+
+Tests Written:
+checkChildren: None, left, right, both
+
+insertNode: create a root, add left child to a root, add right child to a root, add left
+			child to a full tree, add right child to a full tree
+
+treeFromFile: single word file, multi-word file on one line, multi-word file on multiple
+			  lines, multi-word file with duplicates, multi-word file on multiple lines
+			  with duplicates
+
+binaryTreeSearch: value at top of tree, value in left subtree, value in right subtree,
+				  value not in tree
+
+searchNoPrint: value at top of tree, value in left subtree, value in right subtree,
+			   value not in tree
+
+delete: target not in tree, target is root, target is node but not root
+
+deleteNode: delete leaf, delete branch with only left child, delete branch with only
+			right child, delete branch with both left and right child, delete branch with
+			both left and right subtrees
+
+deleteRoot: delete root when it is also a leaf, delete root with only left child,
+			delete root with only right child, delete root with both left and right
+			child, delete root with both left and right subtrees
+
+preOrder: only root, tree with only root and left node, tree with only root and right
+		  node, tree with both root and left and right nodes, tree with root and
+		  subtrees
